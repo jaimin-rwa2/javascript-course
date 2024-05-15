@@ -2,8 +2,9 @@
 
 
 // Primitive :- it store values it self only
-console.log("Number     :", typeof(5))
+console.log("Number     :", typeof(5.5))
 console.log("Boolean    :",typeof(true))
+
 console.log("String     :",typeof("string"))
 console.log("undefine   :",typeof(undefined))
 console.log("null       :",typeof(null))

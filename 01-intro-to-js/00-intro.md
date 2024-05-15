@@ -1,13 +1,14 @@
 -> we can use js in browser and on system(Server) usign NODE
 
 
+
 JavaScript futures
 - Asynchronous Nature.  (but we can use synchronous also)
 - Event-Driven Architecture.
 - Single-Threaded Working.
 - Scalability.
 - Multiple platform compatibility.
-
+    
 JS Follows ECMAScript standard. 
 
 > ES5: Introduced significant enhancements to the language, including strict mode, JSON support, and several Array methods like forEach, map, filter, and reduce. (extra like find, findIndex)

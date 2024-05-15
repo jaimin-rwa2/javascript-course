@@ -38,5 +38,11 @@ console.log(fruits.length);
 console.log(fruits.slice(2))
 console.log(fruits.slice(1, 3))
 
+// if we want to remvoe elemets from Nth elements
+fruits.splice(2, 1) // in placed
+fruits.toSpliced(2, 1)  // outplaced
 
 console.log(fruits)
+
+
+// note : push, pop, shift, unshift, splice and toSpliced are inplaced methods 
