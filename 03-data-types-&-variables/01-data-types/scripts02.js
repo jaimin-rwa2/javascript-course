@@ -29,21 +29,24 @@ console.log("function   :",typeof(function(){}))  // function is also object
 
 
 
-
-/* ---  compare --- */
-console.log(is)
-
-
-
-
 /* --- type conversion --- */
 Number("56")            // true false return 1 and zero
+parseInt(1)             // true false return Nan 
 parseFloat("56.2235")   // x.toFixed(2) :- need only last two Floating values,  
                         // x.toPrecision(2) : if 2nd FP is 5 or gt 5 then it will merge to 1
-parseInt(1)             // true false return Nan 
-
 
 String(52)   //  variable.toString() : works but not as expected
-
-
 Boolean(54)  // 0, 0.0, "", null, undefine give false other return true even empty [] return true.
+
+
+/* ---  compare --- */
+console.log('52 == 52 :', 52 == 52)
+console.log('52 === 52 :', 52 === 52)
+console.log('52 == "52" :', 52 == "52")
+console.log('52 === "52" :', 52 === "52")
+console.log('52 == ["52"] :', 52 == ["52"])
+console.log('52 === ["52"] :', 52 === ["52"])
+
+
+/* --- eval() : to evalualt string as sum--- */
+eval("3+(4/2)")

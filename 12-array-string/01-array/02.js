@@ -10,8 +10,6 @@ allStudents = allStudents.concat("Mayank"); // we can concat with indivisuls
 
 console.log(allStudents);
 
-
-
 const mdArr = [[1,2],[3,4],[5,6]];  // this is how multi dymention  array 
 const flatArr = mdArr.flat();
 console.log(flatArr);
