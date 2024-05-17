@@ -1,4 +1,4 @@
-const arr = [1, 2, 3, 4, -5]
+const arr = [1, 2, 3, 4, 5]
 
 const result2 = arr.every( (item) => {
     return item > 0

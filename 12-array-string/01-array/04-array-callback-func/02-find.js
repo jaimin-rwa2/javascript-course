@@ -32,6 +32,6 @@ const result2 = arrOfObj.find( (obj) => {   // arrOfObj.findLast(myFunction);
 })
 
 console.log(result2)
-console.log(result2.name)
+// console.log(result2.name)
 
 // it will return 1st match

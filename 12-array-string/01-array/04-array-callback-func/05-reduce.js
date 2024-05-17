@@ -1,12 +1,12 @@
-const arr = [1, 2, 3, 4, 5]
-// const arr = [1, 2] // for one it whould not run
+// const arr = [1, 2, 3, 4, 5]
+// // const arr = [1, 2] // for one it whould not run
 
 
-const result = arr.reduce( (acc, curr) => {   // we have  reduceRight also
-    return acc + curr
-})
+// const result = arr.reduce( (prev, curr) => {   // we have  reduceRight also
+//     return prev + curr
+// })
 
-console.log(result)
+// console.log(result)
 
 
 const arrOfObj = [

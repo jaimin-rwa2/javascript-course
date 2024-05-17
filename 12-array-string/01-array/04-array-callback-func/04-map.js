@@ -28,7 +28,7 @@ const arrOfObj = [
 
 const find = 4
 const result2 = arrOfObj.map( (obj) => {    // we have something call flatMap   
-    return obj.id == find
+    return obj.name
 })
 
 console.log(result2)
