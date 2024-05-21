@@ -2,8 +2,8 @@ The HTML is represented(constructed) as a tree of object which called DOM model:
 ![alt text](image.png)
 
 basic :-
-console.log()
-document.write()
+console.log(),
+document.write(),
 alert()
 
 
