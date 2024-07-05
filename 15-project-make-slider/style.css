@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slider {
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+
+}
+.slides {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: brown;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+}
+
+.prev {
+    left: 480px;
+}
+
+.next{
+    right: 480px;
+}
