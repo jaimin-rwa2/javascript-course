@@ -1,7 +1,5 @@
 -> we can use js in browser and on system(Server) usign NODE
 
-
-
 JavaScript futures
 - Asynchronous Nature.  (but we can use synchronous also)
 - Event-Driven Architecture.
@@ -20,8 +18,6 @@ JS Follows ECMAScript standard.
  . . . . . 
 
 > ES12 (ES2021): Brought features like private class methods and fields, Promise.any(), String.prototype.replaceAll(), and Logical Assignment Operators (||=, ??=, &&=).
-
-
 
 - memory Leak : issue like Globle Variables
 
