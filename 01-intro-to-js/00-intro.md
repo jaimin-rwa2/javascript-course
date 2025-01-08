@@ -1,7 +1,7 @@
 -> we can use js in browser and on system(Server) usign NODE
 
 JavaScript futures
-- Asynchronous Nature.  (but we can use synchronous also)
+- synchronous Nature but Promices and WEB Api (BOM) make's it async
 - Event-Driven Architecture.
 - Single-Threaded Working.
 - Scalability.
@@ -21,4 +21,15 @@ JS Follows ECMAScript standard.
 
 - memory Leak : issue like Globle Variables
 
-- WEB APIs : Java Script is Singe Threaded (Synchronous) single stack and single Heap Memory
+- WEB APIs/ BOM (Browser Object Model): Java Script is Singe Threaded (Synchronous) single stack and single Heap Memory, but BOM make it async
+
+
+
+> how to use js with html
+
+
+```javascript
+<script src="script.js" defer></script>
+```
+
+- defer is use for skip the js file first go html and than compile js file sprcially in dom cases

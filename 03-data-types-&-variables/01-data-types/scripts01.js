@@ -1,6 +1,7 @@
 // data types  : var, let, const 
-// - if we will create variable in globle space then we can access it from anywhere.
+// - if we will create variable in globle space then we can access it in any scope.
 
+// scope 
 
 
 function printLine() {

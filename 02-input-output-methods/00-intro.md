@@ -6,6 +6,11 @@ console.log(),
 document.write(),
 alert()
 
+- global variables "window"
+- BOM (Web Api) and DOM 
+- BOM
+    - window.scrollBy(100, 0); and window.scrollBy(0, 100);
+    - window.scrollTo(500, 0);  and window.scrollTo(0, 500);
 
 ### document - it represent All HTML of web page
 
@@ -24,7 +29,6 @@ Property
 User Input:
 - prompt()  `for user input any value and this need's type conversion if we are getting other then string`
 - confirm()  `for true and flase` 
-
 
 ### window : represents the browser window,  It is the global object
 - window.document.getElementById("")  // `document object is also come under window object`
